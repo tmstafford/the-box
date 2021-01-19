@@ -1,3 +1,4 @@
+/* Global styles */
 *,
 *::before,
 *::after {
@@ -24,6 +25,7 @@ img {
     max-width: 100%;
 }
 
+/* Main styles */
 .btn {
     cursor: pointer;
     display: inline-block;
@@ -70,6 +72,7 @@ img {
     margin-bottom: 1.5em;
 }
 
+/* Header styles */
 header {
     display: flex;
     align-items: center;
@@ -98,6 +101,7 @@ header {
     gap: 0.5em;
 }
 
+/* Footer styles */
 footer {
     margin-top: 2em;
 }
@@ -112,6 +116,7 @@ footer {
     opacity: 0.5;
 }
 
+/* Media Queries */ 
 @media screen and (min-width: 768px) {
     body {
         margin: 0;
